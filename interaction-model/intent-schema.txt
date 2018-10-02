@@ -1,0 +1,1287 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "AVAILABLE_AREAS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "California",
+              "synonyms": [
+                "Cali"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Colorado",
+              "synonyms": [
+                "Colorady"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "New Mexico",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Idaho",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Utah",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "LAUNCH_SLOTS",
+        "values": [
+          {
+            "id": "LAUNCH",
+            "name": {
+              "value": "launch",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "START",
+            "name": {
+              "value": "start",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "OPEN",
+            "name": {
+              "value": "open",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "SET",
+            "name": {
+              "value": "set",
+              "synonyms": []
+            }
+          },
+          {
+            "id": "BEGIN",
+            "name": {
+              "value": "begin",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_ACTIONS",
+        "values": [
+          {
+            "id": "SAY",
+            "name": {
+              "value": "Say",
+              "synonyms": [
+                "Say a",
+                "to Say",
+                "to Say a"
+              ]
+            }
+          },
+          {
+            "id": "PLAY",
+            "name": {
+              "value": "Play",
+              "synonyms": [
+                "Play me a",
+                "Play a",
+                "to Play",
+                "to Play a"
+              ]
+            }
+          },
+          {
+            "id": "GET",
+            "name": {
+              "value": "Get",
+              "synonyms": [
+                "Get a",
+                "Get me a",
+                "Get me",
+                "to Get me",
+                "to Get me a"
+              ]
+            }
+          },
+          {
+            "id": "GIVE",
+            "name": {
+              "value": "Give",
+              "synonyms": [
+                "Give me",
+                "Give a",
+                "Give me a",
+                "to Give me",
+                "to Give me a"
+              ]
+            }
+          },
+          {
+            "id": "GRAB",
+            "name": {
+              "value": "Grab",
+              "synonyms": [
+                "Grab a",
+                "Grab me a",
+                "to Grab me",
+                "to Grab me a"
+              ]
+            }
+          },
+          {
+            "id": "FETCH",
+            "name": {
+              "value": "Fetch",
+              "synonyms": [
+                "Fetch a",
+                "Fetch me a",
+                "to Fetch me",
+                "to Fetch me a"
+              ]
+            }
+          },
+          {
+            "id": "SNAG",
+            "name": {
+              "value": "Snag",
+              "synonyms": [
+                "Snag a",
+                "Snag me a",
+                "to Snag me",
+                "to Snag me a"
+              ]
+            }
+          },
+          {
+            "id": "WRANGLE",
+            "name": {
+              "value": "Wrangle",
+              "synonyms": [
+                "Wrangle me",
+                "Wrangle me a",
+                "to Wrangle a",
+                "to Wrangle me a"
+              ]
+            }
+          },
+          {
+            "id": "SAVE",
+            "name": {
+              "value": "Save",
+              "synonyms": [
+                "Save a",
+                "Save me a",
+                "to Save me a",
+                "to Save me"
+              ]
+            }
+          },
+          {
+            "id": "RUSTLE",
+            "name": {
+              "value": "Rustle",
+              "synonyms": [
+                "Rustle me",
+                "Rustle me a",
+                "Rustle a",
+                "to Rustle me",
+                "to Rustle me a"
+              ]
+            }
+          },
+          {
+            "id": "TELL",
+            "name": {
+              "value": "Tell",
+              "synonyms": [
+                "Tell me",
+                "Tell me a",
+                "Tell a",
+                "to Tell a",
+                "To Tell me a"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "From",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_CAAREAS",
+        "values": [
+          {
+            "id": "SQUAW",
+            "name": {
+              "value": "Squaw Valley",
+              "synonyms": [
+                "Squaw",
+                "quaw Valley",
+                "Ski Squaw Valley",
+                "Squaw Valley Ski Resort",
+                "squaw valley ski area",
+                "squab valley ski resort",
+                "squab valley",
+                "for squab valley",
+                "for squaw valley ski resort"
+              ]
+            }
+          },
+          {
+            "id": "HEAVENLY",
+            "name": {
+              "value": "Heavenly",
+              "synonyms": [
+                "eavenly",
+                "Ski Heavenly",
+                "Heavenly Ski Resort",
+                "Heavenly Ski Area"
+              ]
+            }
+          },
+          {
+            "id": "TAHOE",
+            "name": {
+              "value": "Tahoe",
+              "synonyms": [
+                "ahoe",
+                "Lake Tahoe",
+                "Tahoe Ski Resort",
+                "Tahoe Ski Area",
+                "Ski Tahoe"
+              ]
+            }
+          },
+          {
+            "id": "NORTHSTAR",
+            "name": {
+              "value": "Northstar",
+              "synonyms": [
+                "Northsta",
+                "orthsta",
+                "Northstar Ski Resort",
+                "Northstar Ski Area",
+                "Ski Northstar",
+                "norstar",
+                "scheme norstar",
+                "for northstar",
+                "for norstar",
+                "north star"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_COAREAS",
+        "values": [
+          {
+            "id": "ABASIN",
+            "name": {
+              "value": "Arapahoe Basin",
+              "synonyms": [
+                "Abasin",
+                "Abay",
+                "Arapahoe",
+                "hoe base",
+                "scheme abasin",
+                "scheme arapahoe",
+                "arapahoe scheme area",
+                "arapahoe basin ski area",
+                "arapahoe basin scheme area",
+                "for abasin",
+                "for abay",
+                "bay",
+                "for bay",
+                "a bay",
+                "a bay sin",
+                "a bay scheme area",
+                "for a bay",
+                "for a bay sin",
+                "for arapahoe basin"
+              ]
+            }
+          },
+          {
+            "id": "ASPENHIGHLANDS",
+            "name": {
+              "value": "Aspen Highlands",
+              "synonyms": [
+                "spen Highlands",
+                "ask then harpoons",
+                "aspen heiden",
+                "ask in mountain",
+                "ask in mountain resort",
+                "ask then harpoons resort",
+                "for ask then harpoons",
+                "for aspen heiden",
+                "for aspen highlands",
+                "for aspen highland scheme resort"
+              ]
+            }
+          },
+          {
+            "id": "ASPENMOUNTAIN",
+            "name": {
+              "value": "Aspen Mountain",
+              "synonyms": [
+                "spen Mountain",
+                "aston mountain",
+                "for aspen mountain",
+                "for aston mountain"
+              ]
+            }
+          },
+          {
+            "id": "BEAVERCREEK",
+            "name": {
+              "value": "Beaver Creek",
+              "synonyms": [
+                "eaver Creek",
+                "The Beave",
+                "Beave",
+                "the bee",
+                "the bee eva",
+                "for the beave",
+                "for bee eva",
+                "for beaver creek",
+                "bee eva scheme resort"
+              ]
+            }
+          },
+          {
+            "id": "BRECK",
+            "name": {
+              "value": "Breckenridge",
+              "synonyms": [
+                "Breck",
+                "reckenridge",
+                "break",
+                "breckenshred",
+                "brecon shred",
+                "brekky",
+                "for breck",
+                "for breckenridge",
+                "for breckenridge scheme area",
+                "for breckenridge scheme resort",
+                "for brecon shred"
+              ]
+            }
+          },
+          {
+            "id": "BUTTERMILK",
+            "name": {
+              "value": "Buttermilk",
+              "synonyms": [
+                "Ski Buttermilk",
+                "uttermilk",
+                "scheme buttermilk",
+                "for butter",
+                "for buttermilk"
+              ]
+            }
+          },
+          {
+            "id": "COPPERMOUNTAIN",
+            "name": {
+              "value": "Copper Mountain",
+              "synonyms": [
+                "opper Mountain",
+                "Copper",
+                "Cop",
+                "ski copper",
+                "scheme copper",
+                "copper dude",
+                "copper duke",
+                "copper mountain ski resort",
+                "for copper",
+                "for copper mountain",
+                "for copper duke"
+              ]
+            }
+          },
+          {
+            "id": "CRESTEDBUTTE",
+            "name": {
+              "value": "Crested Butte",
+              "synonyms": [
+                "rested Butte",
+                "The Butte",
+                "Crusty Butt",
+                "trusty butt",
+                "crusty but",
+                "krusty but",
+                "for crested butte",
+                "for krusty but",
+                "for crusty but"
+              ]
+            }
+          },
+          {
+            "id": "ECHOMOUNTAIN",
+            "name": {
+              "value": "Echo Mountain Park",
+              "synonyms": [
+                "Echo",
+                "Echo Bro",
+                "Echo Mountain",
+                "for echo bro",
+                "for echo dude",
+                "for echo mountain",
+                "for echo",
+                "for echo mountain park"
+              ]
+            }
+          },
+          {
+            "id": "ELDORA",
+            "name": {
+              "value": "Eldora",
+              "synonyms": [
+                "ldora",
+                "ski eldora",
+                "scheme eldora",
+                "for eldora",
+                "for ski eldora",
+                "for eldora ski area",
+                "for eldora scheme area"
+              ]
+            }
+          },
+          {
+            "id": "HESPERUS",
+            "name": {
+              "value": "Hesperus Ski Area",
+              "synonyms": [
+                "Hesperus",
+                "esperus",
+                "how listen hill",
+                "how listen hill scheme area",
+                "hesperus scheme area",
+                "for hesperus scheme area",
+                "for hesperus",
+                "for hesperus ski area"
+              ]
+            }
+          },
+          {
+            "id": "HOWELSEN",
+            "name": {
+              "value": "Howelsen Hill",
+              "synonyms": [
+                "Howelsen",
+                "owelsen",
+                "for howelsen",
+                "for howelsen hil"
+              ]
+            }
+          },
+          {
+            "id": "KENDALL",
+            "name": {
+              "value": "Kendall Mountain",
+              "synonyms": [
+                "Kendall",
+                "endall",
+                "kindle mountain",
+                "for kendall mountain",
+                "for kindle mountain"
+              ]
+            }
+          },
+          {
+            "id": "KEYSTONE",
+            "name": {
+              "value": "Keystone",
+              "synonyms": [
+                "eystone",
+                "Keystone Resort",
+                "for keystone",
+                "for scheme keystone",
+                "keystone scheme area",
+                "for keystone resort"
+              ]
+            }
+          },
+          {
+            "id": "LOVELAND",
+            "name": {
+              "value": "Loveland",
+              "synonyms": [
+                "Ski Loveland",
+                "Loveland Ski Area",
+                "for loveland",
+                "for scheme loveland",
+                "for loveland ski area",
+                "for loveland scheme area"
+              ]
+            }
+          },
+          {
+            "id": "MONARCH",
+            "name": {
+              "value": "Monarch",
+              "synonyms": [
+                "Ski Monarch",
+                "Monarch Ski Area",
+                "onarch",
+                "mode",
+                "for Monarch",
+                "for ski monarch",
+                "for scheme monarch",
+                "for monarch scheme area",
+                "for monarch ski area"
+              ]
+            }
+          },
+          {
+            "id": "POWDERHORN",
+            "name": {
+              "value": "Powderhorn",
+              "synonyms": [
+                "owderhorn",
+                "Powderhorn Ski Resort",
+                "Powderhorn Ski Area",
+                "for powderhorn",
+                "for scheme powderhorn",
+                "powderhorn scheme area"
+              ]
+            }
+          },
+          {
+            "id": "PURGATORY",
+            "name": {
+              "value": "Purgatory",
+              "synonyms": [
+                "Ski Purgatory",
+                "Purgatory Ski Resort",
+                "Purg",
+                "The Purg",
+                "urgatory",
+                "the harig",
+                "for purgatory",
+                "scheme purgatory"
+              ]
+            }
+          },
+          {
+            "id": "SILVERTON",
+            "name": {
+              "value": "Silverton",
+              "synonyms": [
+                "Ski Silverton",
+                "ilverton",
+                "scheme silverton",
+                "for silverton",
+                "sobered senske area",
+                "silverton ski area"
+              ]
+            }
+          },
+          {
+            "id": "SKICOOPER",
+            "name": {
+              "value": "Ski Cooper",
+              "synonyms": [
+                "Cooper",
+                "Coop",
+                "The Coop",
+                "scheme cooper",
+                "for scheme cooper",
+                "for ski cooper",
+                "for the coop"
+              ]
+            }
+          },
+          {
+            "id": "SNOWMASS",
+            "name": {
+              "value": "Snowmass",
+              "synonyms": [
+                "Snowmass Ski Resort",
+                "Ski Snowmass",
+                "nowmass",
+                "for snowmass",
+                "for snowmass skeem resort",
+                "for snomass scheme resort",
+                "snowmass scheme resort",
+                "scheme snowmass"
+              ]
+            }
+          },
+          {
+            "id": "STEAMBOAT",
+            "name": {
+              "value": "Steamboat",
+              "synonyms": [
+                "Steamboat Ski Resort",
+                "Ski Steamboat",
+                "Dream boat",
+                "steamboat skeem resort",
+                "for steamboat",
+                "for steamboat ski resort",
+                "for ski steamboat",
+                "for dream boat",
+                "scheme steamboat"
+              ]
+            }
+          },
+          {
+            "id": "SUNLIGHT",
+            "name": {
+              "value": "Sunlight",
+              "synonyms": [
+                "Ski Sunlight",
+                "unlight",
+                "Sunlight",
+                "Sunlight Ski Area",
+                "for sunlight",
+                "for ski sunlight",
+                "for sunlight ski area",
+                "for scheme sunlight"
+              ]
+            }
+          },
+          {
+            "id": "TELLURIDE",
+            "name": {
+              "value": "Telluride",
+              "synonyms": [
+                "To Hell you Ride",
+                "elluride",
+                "Telluride Ski Resort",
+                "Ski Telluride",
+                "tell you ride",
+                "for tell you ride",
+                "for ski tell you ride",
+                "for to hell you ride",
+                "for scheme tell you ride"
+              ]
+            }
+          },
+          {
+            "id": "VAIL",
+            "name": {
+              "value": "Vail",
+              "synonyms": [
+                "Vail Resort",
+                "ail",
+                "Ski Vail",
+                "Vail Ski Resort",
+                "bale",
+                "for vail",
+                "for bale",
+                "for bale ski resort",
+                "for vail ski resort",
+                "for ski vail",
+                "for ski bale",
+                "for scheme bale",
+                "for scheme bale resort"
+              ]
+            }
+          },
+          {
+            "id": "WINTERPARK",
+            "name": {
+              "value": "Winter Park",
+              "synonyms": [
+                "Winter Park Ski Area",
+                "inter Park",
+                "Winter Park Ski Resort",
+                "for winter park",
+                "for winter park ski area",
+                "for winter park ski resort"
+              ]
+            }
+          },
+          {
+            "id": "MARYJANE",
+            "name": {
+              "value": "Mary Jane",
+              "synonyms": [
+                "ary Jane",
+                "The Jane",
+                "Mary Jane Ski Resort",
+                "Ski Mary Jane",
+                "for mary jane",
+                "for the jane"
+              ]
+            }
+          },
+          {
+            "id": "WOLFCREEK",
+            "name": {
+              "value": "Wolf Creek",
+              "synonyms": [
+                "olf Creek",
+                "Wolf",
+                "Wolf Creek Ski Area",
+                "Wolf Creek Ski Resort",
+                "Wolf Creek Resort",
+                "for wolf creek"
+              ]
+            }
+          },
+          {
+            "id": "BACKCOUNTRYNORTH",
+            "name": {
+              "value": "Backcountry North",
+              "synonyms": [
+                "north",
+                "for backcountry north"
+              ]
+            }
+          },
+          {
+            "id": "BACKCOUNTRYCENTRAL",
+            "name": {
+              "value": "Backcountry Central",
+              "synonyms": [
+                "Central",
+                "for backcountry central"
+              ]
+            }
+          },
+          {
+            "id": "BACKCOUNTRYSOUTH",
+            "name": {
+              "value": "Backcountry South",
+              "synonyms": [
+                "South",
+                "for backcountry south"
+              ]
+            }
+          },
+          {
+            "id": "BACKCOUNTRY",
+            "name": {
+              "value": "Backcountry",
+              "synonyms": [
+                "ackcountry"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_CORE_REQUESTS",
+        "values": [
+          {
+            "id": "REPORT",
+            "name": {
+              "value": "report",
+              "synonyms": [
+                "a report",
+                "a report for",
+                "report of",
+                "a report of"
+              ]
+            }
+          },
+          {
+            "id": "SNOW",
+            "name": {
+              "value": "snow report",
+              "synonyms": [
+                "a snow report",
+                "a snow report for",
+                "snow report of"
+              ]
+            }
+          },
+          {
+            "id": "SKI",
+            "name": {
+              "value": "ski report",
+              "synonyms": [
+                "ski report for",
+                "a ski report for",
+                "ski report of",
+                "a ski report of"
+              ]
+            }
+          },
+          {
+            "id": "CONDITIONS",
+            "name": {
+              "value": "snow conditions",
+              "synonyms": [
+                "snow conditions for",
+                "a snow conditions for",
+                "conditions",
+                "conditions for",
+                "conditions of",
+                "snow conditions of"
+              ]
+            }
+          },
+          {
+            "id": "SNOWBOARD",
+            "name": {
+              "value": "snowboard report",
+              "synonyms": [
+                "a snowboard report",
+                "a snowboard report for",
+                "snowboard report for",
+                "snowboard report of"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_IDAREAS",
+        "values": [
+          {
+            "id": "SUNVALLEY",
+            "name": {
+              "value": "Sun Valley",
+              "synonyms": [
+                "un Valley",
+                "The valley",
+                "Ski Sun Valley",
+                "Sun Valley Ski Resort",
+                "sunvalley",
+                "sunvalley ski resort",
+                "sunvalley skew resort",
+                "for sunvalley",
+                "for sunvalley skew resort"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_NMAREAS",
+        "values": [
+          {
+            "id": "TAOS",
+            "name": {
+              "value": "Taos",
+              "synonyms": [
+                "Ski Taos",
+                "Taos Ski Resort",
+                "house",
+                "for taos",
+                "for house scheme resort"
+              ]
+            }
+          },
+          {
+            "id": "ANGELFIRE",
+            "name": {
+              "value": "Angel Fire",
+              "synonyms": [
+                "Ski Angel Fire",
+                "Angel Fire Ski Resort",
+                "ngel Fire",
+                "anglefire",
+                "scheme anglefire"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_UTAREAS",
+        "values": [
+          {
+            "id": "ALTA",
+            "name": {
+              "value": "Alta",
+              "synonyms": [
+                "Ski Alta",
+                "Alta Ski Area",
+                "Alta Ski Resort",
+                "lta"
+              ]
+            }
+          },
+          {
+            "id": "BEAVERMOUNTAIN",
+            "name": {
+              "value": "Beaver Mountain",
+              "synonyms": [
+                "Beaver",
+                "Ski Beaver Mountain",
+                "Beaver Mountain Ski Resort",
+                "eaver",
+                "eaver Mountain"
+              ]
+            }
+          },
+          {
+            "id": "BRIANHEAD",
+            "name": {
+              "value": "Brian Head",
+              "synonyms": [
+                "rian Head",
+                "Ski Brian Head",
+                "Brian Head Ski Area",
+                "Brian Head Ski Area"
+              ]
+            }
+          },
+          {
+            "id": "BRIGHTON",
+            "name": {
+              "value": "Brighton",
+              "synonyms": [
+                "Ski Brighton",
+                "Brighton Ski Area",
+                "Brighton Ski Resort",
+                "righton"
+              ]
+            }
+          },
+          {
+            "id": "CHERRYPEAK",
+            "name": {
+              "value": "Cherry Peak Resort",
+              "synonyms": [
+                "herry Peak Resort",
+                "Cherry Peak",
+                "Ski Cherry Peak Resort",
+                "cherry peak rasor",
+                "cherry pete resort"
+              ]
+            }
+          },
+          {
+            "id": "DEERVALLEY",
+            "name": {
+              "value": "Deer Valley",
+              "synonyms": [
+                "eer Valley",
+                "Ski Deer Valley",
+                "Deer Valley Ski Resort"
+              ]
+            }
+          },
+          {
+            "id": "EAGLEPOINT",
+            "name": {
+              "value": "Eagle Point Ski Resort",
+              "synonyms": [
+                "agle Point Ski Resort",
+                "Eagle Point",
+                "Eagle",
+                "Ski Eagle Point Ski Resort",
+                "Ski Eagle Point",
+                "Ski Eagle",
+                "geo point ski resort",
+                "eagle point skin resort"
+              ]
+            }
+          },
+          {
+            "id": "PARKCITY",
+            "name": {
+              "value": "Park City Mountain Resort",
+              "synonyms": [
+                "ark City Mountain Resort",
+                "ark City",
+                "Ski Park City",
+                "Park",
+                "parks in mountain",
+                "parks city mountain",
+                "parks in the mountain"
+              ]
+            }
+          },
+          {
+            "id": "POWDERMOUNTAIN",
+            "name": {
+              "value": "Powder Mountain",
+              "synonyms": [
+                "owder Mountain",
+                "Ski Powder Mountain",
+                "Powder Mountain Ski Resort",
+                "potter mountain",
+                "power mountain",
+                "ski potter mountain"
+              ]
+            }
+          },
+          {
+            "id": "SNOWBASIN",
+            "name": {
+              "value": "Snowbasin",
+              "synonyms": [
+                "nowbasin",
+                "Ski Snowbasin",
+                "Snowbasin Ski Resort",
+                "snow basin",
+                "snow mason"
+              ]
+            }
+          },
+          {
+            "id": "SNOWBIRD",
+            "name": {
+              "value": "Snowbird",
+              "synonyms": [
+                "nowbird",
+                "Ski Snowbird",
+                "Snowbird Ski Area",
+                "Snowbird Ski Resort"
+              ]
+            }
+          },
+          {
+            "id": "SOLITUDE",
+            "name": {
+              "value": "Solitude",
+              "synonyms": [
+                "olitude",
+                "Ski Solitude",
+                "Solitude Ski Resort",
+                "Solitude Ski Area"
+              ]
+            }
+          },
+          {
+            "id": "SUNDANCE",
+            "name": {
+              "value": "Sundance",
+              "synonyms": [
+                "Ski Sundance",
+                "Sundance Ski Area",
+                "undance",
+                "Sundance Ski Resort"
+              ]
+            }
+          },
+          {
+            "id": "WOLFMOUNTAIN",
+            "name": {
+              "value": "Wolf Mountain",
+              "synonyms": [
+                "olf Mountain",
+                "Ski Wolf Mountain",
+                "Wolf Mountain Ski Resort",
+                "Wolf Mountain Ski Area",
+                "west mountain"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "YES_NO",
+        "values": [
+          {
+            "id": "YES",
+            "name": {
+              "value": "Yes",
+              "synonyms": [
+                "Yeah",
+                "Yep",
+                "OK",
+                "Sure",
+                "I guess"
+              ]
+            }
+          },
+          {
+            "id": "NO",
+            "name": {
+              "value": "No",
+              "synonyms": [
+                "Nope"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AvailableAreas",
+        "samples": [
+          "What is open in {Available}",
+          "What resorts are open in {Available}",
+          "Can I listen to resorts open in {Available}",
+          "{Available}",
+          "What's in {Available}",
+          "Resorts in {Available}",
+          "Give me resorts in {Available}",
+          "Give me {Available}",
+          "Tell me resorts open in {Available}",
+          "To tell me resorts open in {Available}",
+          "To give me resorts in {Available}",
+          "What is available in {Available}"
+        ],
+        "slots": [
+          {
+            "name": "Available",
+            "type": "AVAILABLE_AREAS"
+          }
+        ]
+      },
+      {
+        "name": "GetCAReport",
+        "samples": [
+          "{Action} {CoreRequest} {CAArea}",
+          "{Action} {CAArea}",
+          "{CAArea}"
+        ],
+        "slots": [
+          {
+            "name": "CAArea",
+            "type": "LIST_OF_CAAREAS"
+          },
+          {
+            "name": "Action",
+            "type": "LIST_OF_ACTIONS"
+          },
+          {
+            "name": "CoreRequest",
+            "type": "LIST_OF_CORE_REQUESTS"
+          }
+        ]
+      },
+      {
+        "name": "GetCOReport",
+        "samples": [
+          "{Action} {CoreRequest} {COArea}",
+          "{Action} {COArea}",
+          "{COArea}"
+        ],
+        "slots": [
+          {
+            "name": "COArea",
+            "type": "LIST_OF_COAREAS"
+          },
+          {
+            "name": "Action",
+            "type": "LIST_OF_ACTIONS"
+          },
+          {
+            "name": "CoreRequest",
+            "type": "LIST_OF_CORE_REQUESTS"
+          }
+        ]
+      },
+      {
+        "name": "GetIDReport",
+        "samples": [
+          "{Action} {CoreRequest} {IDArea}",
+          "{Action} {IDArea}",
+          "{IDArea}"
+        ],
+        "slots": [
+          {
+            "name": "IDArea",
+            "type": "LIST_OF_IDAREAS"
+          },
+          {
+            "name": "Action",
+            "type": "LIST_OF_ACTIONS"
+          },
+          {
+            "name": "CoreRequest",
+            "type": "LIST_OF_CORE_REQUESTS"
+          }
+        ]
+      },
+      {
+        "name": "GetNMReport",
+        "samples": [
+          "{Action} {CoreRequest} {NMArea}",
+          "{Action} {NMArea}",
+          "{NMArea}"
+        ],
+        "slots": [
+          {
+            "name": "NMArea",
+            "type": "LIST_OF_NMAREAS"
+          },
+          {
+            "name": "Action",
+            "type": "LIST_OF_ACTIONS"
+          },
+          {
+            "name": "CoreRequest",
+            "type": "LIST_OF_CORE_REQUESTS"
+          }
+        ]
+      },
+      {
+        "name": "GetUTReport",
+        "samples": [
+          "{Action} {CoreRequest} {UTArea}",
+          "{Action} {UTArea}",
+          "{UTArea}"
+        ],
+        "slots": [
+          {
+            "name": "UTArea",
+            "type": "LIST_OF_UTAREAS"
+          },
+          {
+            "name": "Action",
+            "type": "LIST_OF_ACTIONS"
+          },
+          {
+            "name": "CoreRequest",
+            "type": "LIST_OF_CORE_REQUESTS"
+          }
+        ]
+      },
+      {
+        "name": "LaunchRequest",
+        "samples": [
+          "{Launch} Ski Report",
+          "{Launch} the Ski Report",
+          "{Launch} Snow Report",
+          "{Launch}"
+        ],
+        "slots": [
+          {
+            "name": "Launch",
+            "type": "LAUNCH_SLOTS"
+          }
+        ]
+      }
+    ],
+    "invocationName": "ski report"
+  }
+}
