@@ -5,7 +5,6 @@ const func  = require('./functions');
 const APPID = '(app id)';
 
 //Dev Id -- Change for live Skill
-//const APPID = 'amzn1.ask.skill.ed26e222-e567-41cf-991f-035c0aceec4c';
 //Local testing console command -- use event.json for requests
 //testing: lambda-local -l index.js -h handler -e event.json
 
